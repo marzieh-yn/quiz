@@ -10,6 +10,7 @@ var expressValidator = require('express-validator');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var clucksRouter = require('./routes/clucks');
+// app.use(helmet());
 
 // const helmet = require('helmet');
 // app.use(helmet());
@@ -40,7 +41,7 @@ app.use('/clucks', clucksRouter);
 app.get("/login", (req, res) => {
   res.render("login", { model: {} });
 });
-const knex=require("./client");// connection database
+const knex=require("./client");
 
 app.use(cookieParser());
 
