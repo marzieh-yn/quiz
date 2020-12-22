@@ -1,0 +1,48 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+#body_login{
+  margin-bottom: 8%;
+  margin-left: 30%;
+  margin-right: 35%;
+  padding: 50px;
+}
+#nav_li{
+  background-color: grey;
+  margin: 20px;
+}
+#nav_img{
+  width: 21%;
+}
+#container{
+  border: 3px solid grey;
+}
+#username_login{
+  margin-top: 8%;
+  margin-bottom: 9%;
+  padding-left: 3%;
+}
+#login{
+  margin-left: 48%;
+  margin-bottom: 17%;
+}
+.form_login{
+  margin-bottom: 45%;
+  padding-bottom: 0px;
+  border: 2px solid grey;
+}
+#sing_in_a{
+  margin-bottom: -3rem !important;
+}
+.user{
+  margin-top: 51%;
+  font-size: 20px;
+}
+#clucks{
+  margin-left: 48%;
+  margin-bottom: 17%;
+}
+a {
+  color: #00B7FF;
+}

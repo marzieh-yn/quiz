@@ -1,0 +1,20 @@
+<%- include("_header_login") -%>
+
+
+<!--<form action="/clucks/addClucks" method="post" class="login-form">-->
+  <div class="form-horizontal">
+    <% if(cluckr.image_url) {%>
+      <img class='card-img-top' src="<%= cluckr.image_url %>"/>
+    <% } %>
+    <div class='card-body'>
+      <p class="card-text">
+        <%= cluckr.content  %>
+      </p>
+    </div>
+
+
+
+  </div>
+<!--</form>-->
+
+<%- include("_footer") -%>
